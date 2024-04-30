@@ -103,8 +103,8 @@ function Pizza({ pizzaObj }) {
 function Footer() {
   const hour = new Date().getHours();
   console.log(hour);
-  const openHour = 12;
-  const closeHour = 22;
+  const openHour = 1;
+  const closeHour = 12;
   const isOpen = hour >= openHour && hour <= closeHour;
 
   return (
@@ -123,8 +123,8 @@ function Order({ closehour, openhour }) {
   return (
     <div className="order">
       <p>
-        We are open from {openhour} until {closehour}:00. Come visit us or order
-        online.
+        We are open from {openhour}:00 until {closehour}:00. Come visit us or
+        order online.
       </p>
       <button className="btn">Order</button>
     </div>
