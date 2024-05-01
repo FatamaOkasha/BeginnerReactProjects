@@ -5,4 +5,4 @@ This a small simple project practicing components, props, jsx, rendering lists a
 In the project directory, you can run:
 
 npm start to run it in local host
-and deployment link : PizzaMenu
+and deployment link : [PizzaMenu](https://beginner-react-projects.vercel.app/)
